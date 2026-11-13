@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">GramVault</string>
+    <string name="network_mainnet">Mainnet</string>
+    <string name="network_testnet">Testnet</string>
+    <string name="testnet_active_warning">TESTNET MODE • Test coins only</string>
+    <string name="wallet_badge_v5r1">V5R1 Wallet</string>
+    <string name="wallet_creating">Securing your V5R1 wallet...</string>
+    <string name="wallet_balance_pending">0.00 GRAM (sync in Phase 3)</string>
+    <string name="wallet_address_label">Wallet Address</string>
+    <string name="action_receive">Receive</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_backup">Backup</string>
+    <string name="action_lock">Lock</string>
+    <string name="action_retry">Retry</string>
+    <string name="address_copied">Address copied</string>
+    <string name="receive_sheet_title">Receive GRAM &amp; USDT</string>
+    <string name="receive_mainnet_note">Send only TON network assets (GRAM or USDT) to this Mainnet address.</string>
+    <string name="receive_testnet_note">Testnet address only. Do not send real Mainnet GRAM or USDT here.</string>
+    <string name="receive_base64_label">Base64 Address (Non-bounceable)</string>
+    <string name="receive_raw_label">Raw Address</string>
+    <string name="action_copy_raw">Copy Raw</string>
+    <string name="qr_mode_address">Address Only</string>
+    <string name="qr_mode_link">Transfer Link</string>
+    <string name="qr_code_cd">Wallet address QR code</string>
+    <string name="assets_section_title">Assets</string>
+    <string name="asset_gram_name">Gram</string>
+    <string name="asset_gram_subtitle">TON Native Coin</string>
+    <string name="asset_usdt_name">Tether USD</string>
+    <string name="asset_usdt_subtitle">TON Jetton</string>
+    <string name="asset_balance_pending">--</string>
+    <string name="core_status_title">Vault Security Status</string>
+    <string name="core_status_body">Hardware AES-256-GCM Keystore + V5R1 active. Import, Live Balance, Send, History, and USDT follow sequentially.</string>
+    <string name="wallet_error_title">Vault operation failed</string>
+    <string name="switch_network_cd">Switch network between Mainnet and Testnet</string>
+
+    <string name="welcome_title">Non-Custodial TON Vault</string>
+    <string name="welcome_subtitle">Create a V5R1 wallet for GRAM and USDT. Private keys stay encrypted in device hardware and never leave this phone.</string>
+    <string name="welcome_security_point_1">12-word BIP-39 recovery phrase with m/44\u2019/607\u2019/0\u2019 derivation</string>
+    <string name="welcome_security_point_2">Protected by biometrics or device PIN/pattern</string>
+    <string name="welcome_security_point_3">Separate Mainnet and Testnet V5R1 wallet IDs</string>
+    <string name="welcome_create_button">Create New Wallet</string>
+    <string name="welcome_pin_fallback_note">No system screen lock detected. You will set a dedicated 4–8 digit Vault PIN layered with Android Keystore encryption.</string>
+
+    <string name="pin_setup_title">Set Vault PIN</string>
+    <string name="pin_setup_subtitle">Enter a 4–8 digit PIN to encrypt your wallet key with hardware Keystore.</string>
+    <string name="pin_enter_title">Enter Vault PIN</string>
+    <string name="pin_enter_subtitle">Enter your 4–8 digit Vault PIN to continue.</string>
+    <string name="pin_field_label">Vault PIN (4–8 digits)</string>
+    <string name="pin_confirm_field_label">Confirm Vault PIN</string>
+    <string name="pin_mismatch_error">PINs do not match</string>
+    <string name="pin_length_error">Enter 4 to 8 digits</string>
+    <string name="pin_confirm_button">Continue</string>
+    <string name="pin_cancel_button">Cancel</string>
+
+    <string name="phrase_title">Recovery Phrase</string>
+    <string name="phrase_subtitle">Write down these 12 words in exact order and store them offline. Screenshots are blocked on this screen.</string>
+    <string name="phrase_scam_warning">Gram (formerly Toncoin) never requires claiming or migrating via websites or bots. Never enter these words anywhere online.</string>
+    <string name="phrase_continue_verify">Verify Backup</string>
+    <string name="phrase_back_up_later">Back up later</string>
+    <string name="phrase_done">Done</string>
+
+    <string name="verify_title">Confirm Your Backup</string>
+    <string name="verify_subtitle">Enter the requested words from your 12-word recovery phrase to confirm your offline backup.</string>
+    <string name="verify_word_label">Word #%1$d</string>
+    <string name="verify_confirm_button">Confirm Backup</string>
+    <string name="verify_mismatch_error">One or more words do not match. Check the word numbers and try again.</string>
+    <string name="backup_confirmed_toast">Recovery phrase backup confirmed</string>
+
+    <string name="backup_needed_banner">Recovery phrase not backed up yet. Tap to verify your 12-word backup.</string>
+    <string name="backup_verified_badge">Backed up</string>
+
+    <string name="locked_title">GramVault Locked</string>
+    <string name="locked_subtitle">Authenticate with biometrics or device PIN to unlock your V5R1 wallet keys.</string>
+    <string name="locked_unlock_button">Unlock Wallet</string>
+    <string name="key_invalidated_title">Security Key Invalidated</string>
+    <string name="key_invalidated_body">Device biometrics or lock settings changed, so Android Keystore invalidated the encrypted key. Re-import via recovery phrase (Phase 2) or reset this vault.</string>
+    <string name="key_invalidated_reset_button">Reset Vault</string>
+
+    <string name="auth_error_no_activity">Authentication host unavailable</string>
+    <string name="auth_title_create">Protect Your New Wallet</string>
+    <string name="auth_subtitle_create">Confirm biometrics or device PIN to encrypt your wallet key</string>
+    <string name="auth_title_unlock">Unlock GramVault</string>
+    <string name="auth_subtitle_unlock">Verify biometrics or device PIN to access your wallet</string>
+    <string name="auth_title_backup">Reveal Recovery Phrase</string>
+    <string name="auth_subtitle_backup">Authenticate to view your 12-word recovery phrase</string>
+    <string name="auth_title_sign">Authorize Transaction</string>
+    <string name="auth_subtitle_sign">Confirm biometrics or device PIN to sign</string>
+</resources>

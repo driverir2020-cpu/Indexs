@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Vault shield + diamond core silhouette centered inside 66dp safe zone -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,27L76,36V53C76,67.5 66.5,79.8 54,83C41.5,79.8 32,67.5 32,53V36L54,27ZM54,36.5L40,42.2V53C40,63.2 46,72.2 54,75.1C62,72.2 68,63.2 68,53V42.2L54,36.5Z" />
+    <path
+        android:fillColor="#FF7CE8FF"
+        android:pathData="M54,43L64,53L54,67L44,53L54,43Z" />
+</vector>
